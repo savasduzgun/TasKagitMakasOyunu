@@ -119,6 +119,7 @@
             // 
             // resimMakas
             // 
+            resimMakas.BorderStyle = BorderStyle.FixedSingle;
             resimMakas.Image = (Image)resources.GetObject("resimMakas.Image");
             resimMakas.Location = new Point(266, 28);
             resimMakas.Name = "resimMakas";
@@ -131,6 +132,7 @@
             // 
             // resimKagit
             // 
+            resimKagit.BorderStyle = BorderStyle.FixedSingle;
             resimKagit.Image = (Image)resources.GetObject("resimKagit.Image");
             resimKagit.Location = new Point(141, 28);
             resimKagit.Name = "resimKagit";
@@ -143,6 +145,7 @@
             // 
             // resimTas
             // 
+            resimTas.BorderStyle = BorderStyle.FixedSingle;
             resimTas.Image = (Image)resources.GetObject("resimTas.Image");
             resimTas.Location = new Point(10, 28);
             resimTas.Name = "resimTas";
@@ -155,6 +158,7 @@
             // 
             // resimBilgisayar
             // 
+            resimBilgisayar.BorderStyle = BorderStyle.FixedSingle;
             resimBilgisayar.Location = new Point(53, 62);
             resimBilgisayar.Name = "resimBilgisayar";
             resimBilgisayar.ResimTuru = ResimTuru.Bos;
@@ -165,6 +169,7 @@
             // 
             // resimOyuncu
             // 
+            resimOyuncu.BorderStyle = BorderStyle.FixedSingle;
             resimOyuncu.Location = new Point(296, 62);
             resimOyuncu.Name = "resimOyuncu";
             resimOyuncu.ResimTuru = ResimTuru.Bos;
@@ -190,7 +195,7 @@
             Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form1";
+            Text = "Taş&Kağıt&Makas";
             groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)resimMakas).EndInit();
             ((System.ComponentModel.ISupportInitialize)resimKagit).EndInit();
