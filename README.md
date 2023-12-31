@@ -1,2 +1,2 @@
 # StonePapperScissorsGame
-I tried to write a simple game.I used custom controls.I improved the inheritance control and added property to it.
+I tried to write a simple game example. I used custom controls. I developed control through inheritance and added properties to it.
